@@ -143,3 +143,70 @@ body{background-image:linear-gradient(#07040255,#07040255),var(--rh-wood)}
 :root{--rh-banner:url("blackwater-banner.webp"),url("rhodes-dashboard-hero-art.webp");--rh-green:#0f3038;--rh-cream:#f2dfbd;--rh-brown:#342019;--rh-paper:#eed9b3;--rh-gold:#b37b38;}
 .rh-hero{background-image:var(--rh-banner)!important;background-size:cover!important;background-position:center!important;min-height:clamp(250px,33vw,430px)!important;}
 
+
+
+/* === Refonte couleur Blackwater — ville portuaire élégante des Great Plains === */
+:root{
+  --city-deep:#142c35;
+  --city-mid:#244955;
+  --city-soft:#647d82;
+  --city-warm:#6a4435;
+  --city-paper:#eee0bf;
+  --city-paper-2:#f7edd6;
+  --city-gold:#b9904a;
+  --city-ink:#1e1713;
+}
+body{background-color:#18252a!important;}
+.sidebar{
+  background:
+    linear-gradient(180deg,rgba(17,43,52,.98),rgba(20,35,41,.98)),
+    var(--rh-wood)!important;
+  border-right:1px solid rgba(185,144,74,.5)!important;
+}
+.sidebar .brand,.sidebar .nav button,.sidebar .private-nav-title{color:#f2e4c5!important;}
+.sidebar .nav button:hover{background:rgba(100,125,130,.16)!important;}
+.sidebar .nav button.active{
+  background:linear-gradient(90deg,rgba(83,112,120,.34),rgba(83,112,120,.12))!important;
+  border-color:rgba(185,144,74,.58)!important;
+}
+.topbar{
+  background:linear-gradient(180deg,#f1e3c4,#ddc89d)!important;
+  border-bottom-color:#74513b!important;
+  color:#211913!important;
+}
+.main,.content{background-color:rgba(238,224,191,.95)!important;}
+.card{
+  background:linear-gradient(180deg,rgba(248,239,218,.97),rgba(231,214,177,.96))!important;
+  border-color:#8c7653!important;
+  box-shadow:0 5px 18px rgba(16,33,40,.2)!important;
+}
+.card h3,.section-title,.metric .label{color:#183a45!important;}
+.metric .value{color:#6a4435!important;}
+table thead th{
+  background:#1d414d!important;
+  color:#f5e8cb!important;
+  border-color:#3b5e68!important;
+}
+table tbody tr:nth-child(even){background:rgba(70,102,110,.08)!important;}
+.btn,.topbar-bureau-shortcut{
+  background:linear-gradient(180deg,#2e5965,#1d414d)!important;
+  color:#f6ead0!important;
+  border-color:#7d6849!important;
+}
+.btn:hover,.topbar-bureau-shortcut:hover{filter:brightness(1.08)!important;}
+.btn.good{background:linear-gradient(180deg,#426a61,#2f504a)!important;}
+.btn.danger{background:linear-gradient(180deg,#7d3f32,#5c2f27)!important;}
+input,select,textarea{
+  background:#f8eed8!important;
+  border-color:#9b835f!important;
+  color:#241a14!important;
+}
+input:focus,select:focus,textarea:focus{
+  border-color:#4b6f79!important;
+  box-shadow:0 0 0 2px rgba(75,111,121,.17)!important;
+}
+.badge,.pill{border-color:#816b4e!important;}
+#dashboard .rh-hero{
+  border-bottom:3px solid #4c6064!important;
+  box-shadow:0 8px 22px rgba(16,38,47,.27)!important;
+}
