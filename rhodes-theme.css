@@ -214,3 +214,22 @@ input:focus,select:focus,textarea:focus{
 /* Bannière Blackwater : le texte est déjà intégré au visuel fourni, aucun texte HTML par-dessus. */
 #dashboard .rh-hero-copy,
 #dashboard .rh-hero blockquote{display:none!important;}
+
+
+/* === Bannière Blackwater définitive === */
+:root{--rh-banner:url("./blackwater-banner.webp");}
+#dashboard .rh-hero{
+  width:100%!important;
+  height:auto!important;
+  min-height:0!important;
+  aspect-ratio:2048 / 685!important;
+  background-image:url("./blackwater-banner.webp")!important;
+  background-size:100% 100%!important;
+  background-position:center!important;
+  background-repeat:no-repeat!important;
+  border-radius:4px!important;
+  overflow:hidden!important;
+}
+#dashboard .rh-hero::before{content:none!important;display:none!important;}
+#dashboard .rh-hero-copy,
+#dashboard .rh-hero blockquote{display:none!important;}
