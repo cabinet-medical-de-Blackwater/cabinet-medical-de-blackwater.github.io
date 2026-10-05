@@ -140,7 +140,7 @@ body{background-image:linear-gradient(#07040255,#07040255),var(--rh-wood)}
 
 
 /* === Identité Blackwater === */
-:root{--rh-banner:url("blackwater-banner.webp"),url("rhodes-dashboard-hero-art.webp");--rh-green:#0f3038;--rh-cream:#f2dfbd;--rh-brown:#342019;--rh-paper:#eed9b3;--rh-gold:#b37b38;}
+:root{--rh-green:#0f3038;--rh-cream:#f2dfbd;--rh-brown:#342019;--rh-paper:#eed9b3;--rh-gold:#b37b38;}
 .rh-hero{background-image:var(--rh-banner)!important;background-size:cover!important;background-position:center!important;min-height:clamp(250px,33vw,430px)!important;}
 
 
