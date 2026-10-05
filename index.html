@@ -3481,7 +3481,7 @@ $('navigationSave').addEventListener('click',async()=>{
         }
         const created=u.created_at?new Intl.DateTimeFormat("fr-FR",{day:"2-digit",month:"2-digit",year:"numeric"}).format(new Date(u.created_at)):"—";
         const grade=u.medical_grade||"apprenti";
-        const isChef=self && grade==="chef_de_cabinet";
+        const isChef=grade==="chef_de_cabinet";
         const gradeControl=isChef
           ? '<span class="pill gold">Chef de cabinet</span>'
           : `<select class="user-grade-select" aria-label="Grade de ${esc(u.display_name||u.email||"l'utilisateur")}">
