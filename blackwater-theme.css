@@ -215,12 +215,3 @@ input:focus,select:focus,textarea:focus {border-color:var(--bw-mid);box-shadow:0
 @media print {
   .card,.card .section-title,.card th,.card td {background:white!important;color:black!important;box-shadow:none}
 }
-
-/* Carte caisse : conserver le fond du thème de la ville, mais texte clair. */
-.metric.accent .label,
-.metric.accent .value{
-  color:#fff3d2!important;
-}
-.metric.accent .sub{
-  color:#f0d79a!important;
-}
